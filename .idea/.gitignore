@@ -1,0 +1,39 @@
+# JetBrains / WebStorm spezifisch
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+.idea/ # Allgemeine IntelliJ/WebStorm Projektkonfigurationen
+
+# Shopify Theme spezifisch
+.shopify-cli.yml
+# config/settings_data.json # Überlege dir gut, ob du diese Datei versionieren willst
+
+# Node.js / npm / yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Wähle eines oder beide, je nachdem was du nutzt:
+# package-lock.json
+# yarn.lock
+
+# Build-Verzeichnisse
+/dist/
+/build/
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log-Dateien
+*.log
+logs
+*.log.*
+
+# Temporäre Dateien
+*.tmp
+*.swp
+*.swo
